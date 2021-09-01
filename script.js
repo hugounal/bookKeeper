@@ -35,7 +35,7 @@ function validate(nameValue, urlValue) {
   return true;
 }
 
-// Build Bookmarks
+// Build Bookmarksß
 function buildBookmarks() {
   // Remove all bookmark elements
   bookmarksContainer.textContent = '';
@@ -56,7 +56,7 @@ function buildBookmarks() {
     // Favicon
     const favicon = document.createElement('img');
     favicon.setAttribute('src', `https://s2.googleusercontent.com/s2/favicons?domain=${url}`);
-    favicon.setAttribute('alt', 'Favicon');
+    // favicon.setAttribute('alt', 'Favicon');
     // Link
     const link = document.createElement('a');
     link.setAttribute('href', `${url}`);
