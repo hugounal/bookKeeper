@@ -79,7 +79,7 @@ function fetchBookmarks() {
     bookmarks = [
       {
         name: 'Hugo Unal',
-        url: 'https://hugounal.github.io/portfolio',
+        url: 'https://hugounal.github.io/portfolio/',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
